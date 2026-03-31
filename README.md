@@ -26,10 +26,11 @@ Provided as-is.
 
 Trying to make sense and prevent SD WIFI CARD issues in AS10/11 machines**
 
-* **Supports:** ResMed Series 10 and 11
+* **Relates to:** ResMed Series 10 and 11
   
 * **Hardware:** [SD WIFI PRO](https://www.fysetc.com/products/fysetc-upgrade-sd-wifi-pro-with-card-reader-module-run-wireless-by-esp32-chip-web-server-reader-uploader-3d-printer-parts) — an ESP32-powered SD card that physically inserts into your CPAP's SD card slot like a regular memory card
 
+* **Software:** [CPAP Auto-Sync](https://github.com/ilyakruchinin/CPAP-AutoSync) — ESP32 firmware that uploads CPAP data to SMB and SleepHQ services
 ---
 
 ## ⚠️ **IMPORTANT COMPATIBILITY NOTICE**
