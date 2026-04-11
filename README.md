@@ -81,4 +81,8 @@ StableSlot™ is available for purchase from our [Square Store](https://)
 
 ## Is it safe?
 
-StableSlot™ has been carefully produced and tested, and to the best of our knowledge and following that testing it appears safe and stable. It protects 
+StableSlot™ has been carefully produced and tested, and to the best of our knowledge and following that testing it appears safe and stable. It protects against SD WIFI cards resetting or writing corrupt data, while not appearing to strain the power supply to the card. That said, we have a clear disclaimer you should [read here](https://github.com/ianwilson-73/StableSlot/blob/main/DISCLAIMER.md)
+
+
+
+
