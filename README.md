@@ -83,6 +83,15 @@ StableSlot™ is available for purchase from our [Square Store](https://)
 
 StableSlot™ has been carefully produced and tested, and to the best of our knowledge and following that testing it appears safe and stable. It protects against SD WIFI cards resetting or writing corrupt data, while not appearing to strain the power supply to the card. That said, we have a clear disclaimer you should [read here](https://github.com/ianwilson-73/StableSlot/blob/main/DISCLAIMER.md)
 
+## Photos
+
+### Close Ups of StableSlot™
+![Close Up](/images/StableSlot-CloseUp.png)
+![With ResMed Airsense 11](/images/StableSlot-Airsense11.png)
+
+### Installed in host device
+![Installed in CPAP - 1](images/StableSlot-Installed1.png)
+![Installed in CPAP - 2](images/StableSlot-Installed2.png)
 
 Copyright 2026 Ian Wilson
 
