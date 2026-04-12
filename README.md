@@ -17,6 +17,14 @@ The source code is licensed under Apache-2.0, but the project name,
 logo, and branding are not licensed except as allowed under trademark law
 and Apache License 2.0 section 6.
 
+SleepHQ and Magic Uploader are trademarks of their respective owner/s. This project is an unofficial client and hardware and is not affiliated with, endorsed by, or associated with SleepHQ. Software included with StableSlot™ uses the officially published SleepHQ API and does not rely on any non-official methods.
+
+This project, and software included, is not intended to compete with the official Magic Uploader. We encourage users to support the platform by considering SleepHQ's official upload solution. Please be aware that should you be having any issues with a SleepHQ Magic Uploader SD card, our solution allows you to use that device's card instead of the included SD WIFI card, in order to stabilise it and continue to enjoy the benefits of Magic Uploader.
+
+ResMed is a trademark of ResMed. This software is not affiliated with or endorsed by ResMed.
+
+All other trademarks are the property of their respective owners.
+
 ## Disclaimer
 Provided as-is, please see the seperate DISCLAIMER.md file.
 
