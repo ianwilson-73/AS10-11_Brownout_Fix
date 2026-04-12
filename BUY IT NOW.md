@@ -2,4 +2,4 @@
 
 **[StableSlot™ Square Store](https://stableslot.square.site)**
 
-(/images/StableSlot.svg)
+![](/images/StableSlot.svg)
