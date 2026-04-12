@@ -85,7 +85,7 @@ That said, we really do like Ilya's CPAP AutoSync, especially as it inspired us 
 
 ## Where do I get StableSlot™
 
-StableSlot™ is available for purchase from our [Square Store](https://)
+StableSlot™ is available for purchase from our [StableSlot™ Square Store](https://stableslot.square.site)
 
 ## Is it safe?
 
