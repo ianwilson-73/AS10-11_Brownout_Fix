@@ -63,6 +63,8 @@ This happens when there is a surge in power requirement, for example when wifi t
 
 Following experimentation, I found that surges in power demand could be protected against by inserting a capacitor in place between two pins (Vdd and Vss1) of the SD card. Various types and strengths of capacitor were tried in order to find a range within which stability could be guaranteed, but without over-stressing the power supply to the SD WIFI card. Following review of those results, I believe a capacitor between 22 and 47uF size, X5R/X7R 25v is the best component for this fix.
 
+<img src="/images/Cap_Added.jpeg" alt="Capacitor Soldered In Place" width="50%">
+
 ## Links to resources
 
 [SD Card Extender](https://www.aliexpress.com/item/1005004124859525.html?spm=a2g0o.productlist.main.4.5e9b59fdkDKBOJ&aem_p4p_detail=2026041808323014927512528665200000557970&algo_pvid=76be8bbc-9836-4646-aad1-c515957d4eac&algo_exp_id=76be8bbc-9836-4646-aad1-c515957d4eac-3&pdp_ext_f=%7B%22order%22%3A%221190%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%212.64%212.43%21%21%213.46%213.18%21%40212e532617765263505244522e7720%2112000028118186957%21sea%21UK%217652557910%21X%211%210%21n_tag%3A-29919%3Bd%3A879571dd%3Bm03_new_user%3A-29895&curPageLogUid=Qxz1kn9fg31X&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005004124859525%7C_p_origin_prod%3A&search_p4p_id=2026041808323014927512528665200000557970_1)
@@ -72,12 +74,21 @@ Following experimentation, I found that surges in power demand could be protecte
 [47uF X7R 25v - Capacitor](https://www.mouser.co.uk/c/passive-components/capacitors/?q=47uF%201206&capacitance=47%20uF&voltage%20rating%20dc=16%20VDC)
 
 
+## Where Can I Buy a Readymade StableSlot™
 
-## StableSlot™ Was Born
+Electronics, soldering, tinkering not your thing?  We are selling the modififed SD extender, in a purpose designed enclosure, ready to go. It comes in two versions, with and without a FYSETC SD WIFI PRO card preloaded with the latest release of CPAP AutoSync software. So you can buy it without to fix your current SD WIFI issues, or buy it with the SD card making it a truly plug and play device.
 
-I was actually dealing with SD WIFI card (of another type) stability issues with a CPAP machine. While researching the cause and trying to find a solution, I happened to come across [CPAP AutoSync by Ilya Kruchinin](https://github.com/ilyakruchinin/CPAP-AutoSync). Ilya has produced an amazing piece of software that he got running on the ESP32 platform. Even more amazingly, it turns out that you can get an SD WIFI card with an ESP32 on board, and so Ilya has developed a piece of software that runs directly on this SD WIFI card, autonomously uploading the user's CPAP data to the cloud (SleepHQ) and SMB network storage devices.
+StableSlot™ is available lovingly pre-made for purchase from our [StableSlot™ Square Store](https://stableslot.square.site)
 
-I was so impressed and inspired by Ilya's creation that I soon ordered one of the required [SD WIFI PRO Cards](https://www.fysetc.com/products/fysetc-upgrade-sd-wifi-pro-with-card-reader-module-run-wireless-by-esp32-chip-web-server-reader-uploader-3d-printer-parts) and I began to test out the software. This was when I started to run into the same stability issues I had seen with the other brand of SD WIFI card on testing. After careful testing and reading, I managed to develop the cure to the issues a number of users had by then been plagued with.
+See this repo for details of the open source software that comes with this readymade solution: [CPAP AutoSync](https://github.com/ilyakruchinin/CPAP-AutoSync)
+
+
+
+## This History of StableSlot™ & More Details
+
+I was actually dealing with SD WIFI card (of another type) stability issues with a CPAP machine. While researching the cause and trying to find a solution, I happened to come across [CPAP AutoSync - Maintained by Ilya Kruchinin](https://github.com/ilyakruchinin/CPAP-AutoSync). Ilya has helped develop an amazing piece of software that runs on the ESP32 platform. Even more amazingly, it turns out that you can get an SD WIFI card with an ESP32 on board, and so it is possible to run this directly on the SD WIFI card, autonomously uploading the user's CPAP data to the cloud (SleepHQ) and SMB network storage devices.
+
+I was so impressed and inspired by Ilya's repo that I soon ordered one of the required [SD WIFI PRO Cards](https://www.fysetc.com/products/fysetc-upgrade-sd-wifi-pro-with-card-reader-module-run-wireless-by-esp32-chip-web-server-reader-uploader-3d-printer-parts) and I began to test out the software. This was when I started to run into the same stability issues I had seen with the other brand of SD WIFI card on testing. After careful testing and reading, I managed to develop the cure to the issues a number of users had by then been plagued with.
 
 Following further development, an enclosure was produced that houses the electronics, SD WIFI card and that provides an SD card format connected to insert into the CPAP machine. I was thinking about producing these as a kit, but as I started to talk to people, it started to become apparent that not everybody feels comfortable messing around with tiny surface mounted circuit boards and 3D printing enclosures for their project.
 
