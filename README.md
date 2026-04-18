@@ -61,7 +61,17 @@ This happens when there is a surge in power requirement, for example when wifi t
 
 ## The Fix
 
-Following experimentation, I found that surges in power demand could be protected against by inserting a capacitor in place between two pins of the SD card. Various types and strengths of capacitor were tried in order to find a range within which stability could be guaranteed, but without over-stressing the power supply to the SD WIFI card.
+Following experimentation, I found that surges in power demand could be protected against by inserting a capacitor in place between two pins of the SD card. Various types and strengths of capacitor were tried in order to find a range within which stability could be guaranteed, but without over-stressing the power supply to the SD WIFI card. Following review of those results, I believe a capacitor between 22 and 47uF size, X5R 25v is the best component for this fix. It is placed between the 3.3v and Ground lines, as close to the SD pins as you can.
+
+## Links to resources
+
+[SD Card Extender](https://www.aliexpress.com/item/1005004124859525.html?spm=a2g0o.productlist.main.4.5e9b59fdkDKBOJ&aem_p4p_detail=2026041808323014927512528665200000557970&algo_pvid=76be8bbc-9836-4646-aad1-c515957d4eac&algo_exp_id=76be8bbc-9836-4646-aad1-c515957d4eac-3&pdp_ext_f=%7B%22order%22%3A%221190%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%212.64%212.43%21%21%213.46%213.18%21%40212e532617765263505244522e7720%2112000028118186957%21sea%21UK%217652557910%21X%211%210%21n_tag%3A-29919%3Bd%3A879571dd%3Bm03_new_user%3A-29895&curPageLogUid=Qxz1kn9fg31X&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005004124859525%7C_p_origin_prod%3A&search_p4p_id=2026041808323014927512528665200000557970_1)
+
+[FYSETC SD WIFI PRO - ESP32 CARD](https://www.aliexpress.com/item/1005009552440128.html?spm=a2g0o.productlist.main.6.c05b4138T5pbQt&algo_pvid=1488315c-3a13-435b-bb6d-254cfb7092c3&algo_exp_id=1488315c-3a13-435b-bb6d-254cfb7092c3-5&pdp_ext_f=%7B%22order%22%3A%2213%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%2150.29%2132.69%21%21%2166.02%2142.92%21%40212e509017765264900695957e586f%2112000049443633074%21sea%21UK%217652557910%21X%211%210%21n_tag%3A-29919%3Bd%3A879571dd%3Bm03_new_user%3A-29895&curPageLogUid=chbnyG8ftLF0&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009552440128%7C_p_origin_prod%3A)
+
+[47uF X7R 25v - Capacitor](https://www.mouser.co.uk/c/passive-components/capacitors/?q=47uF%201206&capacitance=47%20uF&voltage%20rating%20dc=16%20VDC)
+
+
 
 ## StableSlot™ Was Born
 
