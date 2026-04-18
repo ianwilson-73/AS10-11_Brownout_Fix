@@ -61,7 +61,7 @@ This happens when there is a surge in power requirement, for example when wifi t
 
 ## The Fix
 
-Following experimentation, I found that surges in power demand could be protected against by inserting a capacitor in place between two pins of the SD card. Various types and strengths of capacitor were tried in order to find a range within which stability could be guaranteed, but without over-stressing the power supply to the SD WIFI card. Following review of those results, I believe a capacitor between 22 and 47uF size, X5R 25v is the best component for this fix. It is placed between the 3.3v and Ground lines, as close to the SD pins as you can.
+Following experimentation, I found that surges in power demand could be protected against by inserting a capacitor in place between two pins (Vdd and Vss1) of the SD card. Various types and strengths of capacitor were tried in order to find a range within which stability could be guaranteed, but without over-stressing the power supply to the SD WIFI card. Following review of those results, I believe a capacitor between 22 and 47uF size, X5R/X7R 25v is the best component for this fix.
 
 ## Links to resources
 
